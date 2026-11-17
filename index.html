@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Deployment — interactive model explorer</title>
+<title>Deployment model explorer</title>
 <style>
 *{box-sizing:border-box}
 :root{
@@ -717,7 +717,7 @@ function crumbs() {
 }
 
 /* ---------------- chrome ---------------- */
-document.title = M.name + " — block diagram";
+document.title = M.name + " block diagram";
 document.getElementById("zin").onclick = () => zoomAt(cv.clientWidth / 2, cv.clientHeight / 2, 1.3);
 document.getElementById("zout").onclick = () => zoomAt(cv.clientWidth / 2, cv.clientHeight / 2, 1 / 1.3);
 document.getElementById("zreset").onclick = () => resetLayout();
