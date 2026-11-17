@@ -1,7 +1,7 @@
 # Refrigerant circuit control concept
 
 ![The model in full: fourteen inputs on the left, six configuration subsystems in the middle,
-bus bars, output selection and sixteen outputs on the right](docs/figures/model-deployment.svg)
+bus bars, output selection and sixteen outputs on the right](docs/figures/model-root.svg)
 
 *The root system of `NN_Deployment.slx`, drawn block by block — click the picture to open it at
 full size.*
