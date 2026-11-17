@@ -2,6 +2,8 @@
 
 Open the model: https://arsanylowise.github.io/refrigerant_circuit_control_concept/
 
+![The model sheet](docs/figures/model-root.svg)
+
 That page is the model, not a screenshot of it. It draws the root system of NN_Deployment.slx
 block by block. Use the wheel to zoom, drag to pan, double click a block to open its subsystem,
 then follow the breadcrumb at the top left to walk back out. The tall black bars are Mux and Bus
