@@ -1,2 +1,3 @@
-# the model picture is documentation, not code
+# the page and the model picture are documentation, not code
 *.svg linguist-documentation
+index.html linguist-documentation

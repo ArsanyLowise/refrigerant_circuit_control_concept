@@ -1,5 +1,4 @@
-# the published viewer lives on the gh-pages branch, the local copy stays out of main
-/index.html
+# local build tools
 /build/
 
 # Python

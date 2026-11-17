@@ -2,7 +2,7 @@
 
 Open the model: https://arsanylowise.github.io/refrigerant_circuit_control_concept/
 
-![The model sheet](docs/figures/model-root.svg)
+![The model sheet](model.svg)
 
 That page is the model, not a screenshot of it. It draws the root system of NN_Deployment.slx
 block by block. Use the wheel to zoom, drag to pan, double click a block to open its subsystem,
@@ -24,16 +24,6 @@ the selector and pass through the outputs of the active layout. Eleven PT1 filte
 signals before the sixteen outputs leave the model: compressor pressures and temperatures, its
 speed and power, the heat exchanger outlet states, the air outlet temperatures and the heat
 flows into the front end air, the HVAC air and the battery.
-
-## The six layouts
-
-1. EVX3, cabin condenser, ambient evaporator. Six inputs, eleven outputs.
-2. EVX2, cabin condenser, chiller. Six inputs, ten outputs.
-3. EVX1, ambient condenser, cabin evaporator. Seven inputs, ten outputs.
-4. EVX2, ambient condenser, chiller. Six inputs, eight outputs.
-5. EVX2 and EVX1, ambient condenser, cabin evaporator and chiller. Ten inputs, eleven outputs.
-6. EVX2 and EVX1, cabin condenser, cabin evaporator and chiller. Thirteen inputs, fifteen
-   outputs, and the only layout that reports all three heat flows at once.
 
 ## Signal names
 
