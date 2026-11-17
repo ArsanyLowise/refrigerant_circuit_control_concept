@@ -1,5 +1,4 @@
-# local working copy of the viewer that renders the figures (not part of this repository)
-/index.html
+# local build tools, the published page is the self contained index.html
 /build/
 
 # Python
