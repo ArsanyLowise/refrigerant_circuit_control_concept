@@ -1,4 +1,5 @@
-# local build tools, the published page is the self contained index.html
+# the published viewer lives on the gh-pages branch, the local copy stays out of main
+/index.html
 /build/
 
 # Python
