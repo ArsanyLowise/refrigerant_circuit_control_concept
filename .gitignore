@@ -1,0 +1,20 @@
+# local working copy of the viewer that renders the figures (not part of this repository)
+/index.html
+/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local artifacts
+*.log
+_site/

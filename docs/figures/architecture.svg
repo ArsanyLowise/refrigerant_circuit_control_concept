@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="510" viewBox="0 0 1000 300" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8"
+      markerHeight="8" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,1 L9,5 L0,9 Z" fill="#4b5a6a"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="16" y="62" width="214" height="132" rx="8" fill="#ffffff" stroke="#98a6b5" stroke-width="1.2"/>
+  <text x="30" y="84" font-size="11.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">Model inputs</text>
+  <text x="30" y="102" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">14 signals from the vehicle:</text>
+  <text x="30" y="115" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">air inlet temperatures and mass flows,</text>
+  <text x="30" y="128" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">HVAC evaporator humidity, compressor</text>
+  <text x="30" y="141" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">speed, expansion valve commands,</text>
+  <text x="30" y="154" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">and the configuration selector.</text>
+  <rect x="290" y="34" width="256" height="188" rx="8" fill="#f7f9fc" stroke="#98a6b5" stroke-width="1.2"/>
+  <text x="306" y="56" font-size="11.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">Configuration networks</text>
+  <text x="306" y="72" font-size="9" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">one S-Function network per circuit layout</text>
+  <rect x="306" y="88" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="314" y="102" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_1</text>
+  <text x="314" y="114" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">6 in / 11 out</text>
+  <rect x="424" y="88" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="432" y="102" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_2</text>
+  <text x="432" y="114" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">6 in / 10 out</text>
+  <rect x="306" y="130" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="314" y="144" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_5</text>
+  <text x="314" y="156" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">7 in / 10 out</text>
+  <rect x="424" y="130" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="432" y="144" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_8</text>
+  <text x="432" y="156" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">6 in / 8 out</text>
+  <rect x="306" y="172" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="314" y="186" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_9</text>
+  <text x="314" y="198" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">10 in / 11 out</text>
+  <rect x="424" y="172" width="106" height="32" rx="6" fill="#e8eef6" stroke="#b9c6d4" stroke-width="1.2"/>
+  <text x="432" y="186" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">sysconfig_16</text>
+  <text x="432" y="198" font-size="8.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">13 in / 15 out</text>
+  <rect x="600" y="62" width="206" height="132" rx="8" fill="#ffffff" stroke="#98a6b5" stroke-width="1.2"/>
+  <text x="614" y="84" font-size="11.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">Output selection</text>
+  <text x="614" y="102" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">15 multiport switches select the</text>
+  <text x="614" y="115" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">active configuration's outputs;</text>
+  <text x="614" y="128" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">11 PT1 filters smooth the selected</text>
+  <text x="614" y="141" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">signals before they leave the model.</text>
+  <rect x="852" y="62" width="132" height="132" rx="8" fill="#ffffff" stroke="#98a6b5" stroke-width="1.2"/>
+  <text x="866" y="84" font-size="11.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#26313d" font-weight="600">Model outputs</text>
+  <text x="866" y="102" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">16 signals:</text>
+  <text x="866" y="115" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">compressor pressure,</text>
+  <text x="866" y="128" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">temperature, speed</text>
+  <text x="866" y="141" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">and power; exchanger</text>
+  <text x="866" y="154" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">outlet temperatures;</text>
+  <text x="866" y="167" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#41505f">heat flows.</text>
+  <path d="M230,128 L290,128" fill="none" stroke="#4b5a6a" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <path d="M546,128 L600,128" fill="none" stroke="#4b5a6a" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <path d="M806,128 L852,128" fill="none" stroke="#4b5a6a" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="416" y="250" font-size="9" font-family="Helvetica,Arial,sans-serif" text-anchor="middle" fill="#5b6878">configuration selector</text>
+  <path d="M123,194 L123,240 L663,240 L663,194" fill="none" stroke="#4b5a6a" stroke-width="1.4" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+  <text x="16" y="284" font-size="9.5" font-family="Helvetica,Arial,sans-serif" text-anchor="start" fill="#5b6878">Each configuration has its own network and its own set of signal outputs; the selector decides which set the model reports.</text>
+</svg>
